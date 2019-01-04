@@ -1,0 +1,16 @@
+Schéma du login.cs
+==================
+
+Unity requirements
+
+Déclaration de la classe publique "Mot de passe"
+
+Déclaration des variables: 
+- 2 InputFields: id; password
+- 1 Text: texte
+
+Condition (Si l'id est "Admin", si le mot de passe est "admin" et si la touche Entrée est appuyée)
+alors 
+- Charger le niveau nommé "Menu"
+sinon
+- Afficher le texte "Erreur: Identifiant ou Mot de passe incorrect." en rouge
